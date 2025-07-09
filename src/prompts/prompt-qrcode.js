@@ -3,7 +3,7 @@ import chalk from "chalk";
 const promptQRCode = [
     {
         name: "link",
-        description: chalk.yellow("Digite o link para gerar o QR CODE: "),
+        description: chalk.bold.green("👨‍💻 Gerador de QR CODE \n Digite o link para gerar o QR Code:"),
     },
     {
         name: "type",
